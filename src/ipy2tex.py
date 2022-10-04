@@ -166,7 +166,7 @@ class IPY2TEX:
 \\centering
 \\includegraphics[width=\\textwidth]{{./ipy2texfigs/{image_cnt}.png}}
 \\caption{{Figure {image_cnt}}}
-\label{{fig:{image_cnt}}}
+\\label{{fig:{image_cnt}}}
 \\end{{figure}}
 """
                         image_cnt += 1

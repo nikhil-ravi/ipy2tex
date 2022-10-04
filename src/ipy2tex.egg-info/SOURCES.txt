@@ -1,9 +1,0 @@
-LICENCE
-README.md
-pyproject.toml
-src/__init__.py
-src/ipy2tex.py
-src/ipy2tex.egg-info/PKG-INFO
-src/ipy2tex.egg-info/SOURCES.txt
-src/ipy2tex.egg-info/dependency_links.txt
-src/ipy2tex.egg-info/top_level.txt

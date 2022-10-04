@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ipy2tex
+Version: 0.0.1
+Summary: A simple package to generate a .tex file from a jupyter notebook.
+Author-email: Nikhil Ravi <nr337@cornell.edu>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# ipy2tex
+
+A simple package to generate a .tex file from a jupyter notebook.
+
+## Usage
+---
+The package can be used to generate a LaTeX text from the jupyter notebook as follows:
+```
+import ipy2tex
+
+tex = ipy2tex.IPY2TEX("./path_to_ipynb_file")
+print(tex.tex)
+# Prints the .tex text.
+```
+
+To save a .tex file, use the following method:
+```
+tex.write("./path_to_tex_file.tex")
+```
+
